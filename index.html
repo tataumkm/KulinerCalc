@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>KulinerCalc — Cek profit menu kamu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+<body class="min-h-[100dvh]">
+  <div id="app" class="mx-auto max-w-md bg-[var(--paper)] min-h-[100dvh] relative pb-24"></div>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            paper: "#fffdf5",
+            ink: "#1a1a1a",
+            accent: "#ff5c1a",
+          },
+        },
+      },
+    };
+  </script>
+  <script type="module" src="js/app/main.js"></script>
+</body>
+</html>

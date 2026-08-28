@@ -1,0 +1,10 @@
+{
+  "name": "kulincalcalc",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "KulinerCalc — cost & pricing web app untuk F&B UMKM Indonesia (GAS + Google Sheets + vanilla JS)",
+  "scripts": {
+    "test": "node tests/run-tests.mjs"
+  }
+}
